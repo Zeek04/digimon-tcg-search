@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digimon Tcg Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Digimon TCG Search</h1>
+    </header>
+
+    <div class="search-constainer">
+
+      <span>Card Name:</span>
+      <input type="text" placeholder="name" />
+      <span>Color:</span>
+      <select id="color-selector">
+        <option value="Red">Red</option>
+        <option value="Black">Black</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Purple">Purple</option>
+        <option value="White">White</option>
+        <option value="Yellow">Yellow</option>
+      </select>
+
+      <span>Card Type:</span>
+      <select id="type-selector">
+        <option value="Digimon">Digimon</option>
+        <option value="Option">Option</option>
+        <option value="Tamer">Tamer</option>
+        <option value="Digi-Egg">Digi-Egg</option>
+      </select>
+
+      <button id="search-button" type="submit">Search</button>
+
+    </div>
+
+    <div class="card-container">
+        <p id="card-name"></p>
+        <img id="card-picture"></img>
+        <p id="card-description"></p>
+    </div>
+  </body>
+</html>
