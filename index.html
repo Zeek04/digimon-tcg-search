@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digimon Tcg Search</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />  
   </head>
   <body>
 
     <header>
-      <h1>Digimon TCG Search</h1>
+      <h1 id="header">Digimon TCG Search</h1>
     </header>
 
-    <div class="search-constainer">
+    <div class="search-container">
 
       <span>Card Name:</span>
-      <input type="text" placeholder="name" />
+      <input id='name-container' type="text" placeholder="name" />
+
       <span>Color:</span>
       <select id="color-selector">
         <option value="Red">Red</option>
@@ -45,4 +46,5 @@
         <p id="card-description"></p>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
