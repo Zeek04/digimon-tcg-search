@@ -19,6 +19,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+
+.search-container label{
+    margin-right: 5px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .search-container span{
@@ -56,4 +63,28 @@ body{
 #search-button:hover{
     background-color: darkred;
     transform: translateY(-2px);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#card-name{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: overline;
+}
+
+#card-description{
+    font-size: 20px;
+    max-width: 900px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
 }

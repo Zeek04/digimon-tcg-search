@@ -41,7 +41,7 @@ function displayData(card) {
     console.log(card); 
 
     cardName.textContent = card.name || "Unknown Name";
-    cardImage.src = card.pretty_url || "";
+    cardImage.src = card.image_url || "";
     cardImage.alt = card.name || "Card Image";
     cardDescription.textContent = card.main_effect || "No description available.";
 }
